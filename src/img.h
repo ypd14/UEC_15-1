@@ -1,5 +1,5 @@
-#define WIDTH 300
-#define HEIGHT 200
+#define WIDTH 720
+#define HEIGHT 480
 struct color
 {
   unsigned char r, g, b;
