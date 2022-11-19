@@ -12,6 +12,7 @@ int main(void)
     img_fillcircle(c1, 20 + i * 8, 100, 20);
     img_write();
   }
+
   for (i = 0; i < 20; ++i)
   {
     img_clear();
