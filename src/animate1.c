@@ -18,7 +18,7 @@ int main(void)
   for (i = 0; i < 20; ++i)
   {
     img_clear();
-    img_fillcircle(c2, 180, 100 + i * 5, 20 - i);
+    img_fillcircle(c2,180, 100 + i * 5, 20 - i);
     img_write();
   }
 }
