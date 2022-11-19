@@ -1,5 +1,6 @@
 // animate1 --- create animation using img lib.
 #include "img.h"
+static int imgNumber = 0;
 
 int main(void)
 {
@@ -8,6 +9,7 @@ int main(void)
   int i;
   for (i = 0; i < 20; ++i)
   {
+    imgNumber++;
     img_clear();
     img_fillcircle(c1, 20 + i * 8, 100, 20);
     img_write();
